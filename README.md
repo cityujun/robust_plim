@@ -1,2 +1,3 @@
-# robust_plim
-Public codes for Robust_PLIM
+# Robust_PLIM
+
+Public codes for the paper entitled `Personalized Lattice Influence Maximization: Approximation Guarantees and Robustness`.

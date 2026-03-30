@@ -69,9 +69,9 @@ class Activator:
             self.up_act_probs[key] = min(estimated_prob + delta ** 2 / 2. + bias, 1.)
             ## boundary assumption
             if key[1] == 0.:
-                self.up_act_probs[k] = 0.
+                self.up_act_probs[key] = 0.
             if key[1] == 1.:
-                self.lo_act_probs[k] = 1.
+                self.lo_act_probs[key] = 1.
         print(f'Add {n_samples} samples, number of samples for each parameter so far: {self.total_n_samples}. The value of delta is {round(delta, 3)}.')
         
         ## rearrangement
